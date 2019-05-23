@@ -1,0 +1,51 @@
+/* fb heading bg to pink */
+._2s1x ._2s1y,
+._2t-a ._50tj {
+  background: #d98cb3 !important;
+  border-bottom: 1px solid #d98cb3 !important;
+  color: #fff !important;
+}
+
+/* create event */
+._4jy1, button {
+  background-color: hotpink !important;
+  border-color: hotpink !important;
+}
+
+/* h5,
+span.fwb.fcg > a,
+span.see_more_link_inner,
+a#js_1hb,
+._6-6,
+span.fwn.fcg, */
+/* a#u_0_15._9ry._p, */
+/* a#js_5tu, */
+/* a#js_17e, */
+/* ._9ry._p,
+form.commentable_item,
+a._6qw4, */
+/* a._4-h7.fbReactComposerAttachmentSelector_MEDIA,  */
+a {
+  color: rgb(238, 121, 183) !important;
+}
+
+._585- {
+  border-color: pink !important;
+}
+
+/* notification bell */
+span#notificationsCountValue/*._51lp._3z_5._5ugh*/ {
+  background-color: black !important;
+}
+
+.__tw, li.jewelItemNew {
+  background-color: #f9ecf2 !important;
+}
+
+li.jewelItemNew:hover {
+  background-color: #ffe6f7 !important;
+}
+
+div._4kny > div > a, span#fb-timeline-cover-name > a {
+  color: white;
+}
