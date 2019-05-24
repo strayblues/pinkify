@@ -1,13 +1,14 @@
 {
     "manifest_version": 2,
     "name": "Pink Facebook",
-    "description": "Modify CSS on Facebook",
+    "description": "Modify Facebook CSS",
     "version": "1.0.0",
     "icons": {
+        "19": "icon_16.png",
         "128": "icon_128.png"
     },
     "browser_action": {
-        "default_icon": "icon.png",
+        "default_icon": "icon_16.png",
         "default_popup": "popup.html"
     },
     "content_scripts": [{
