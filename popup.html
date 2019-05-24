@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
           integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
           crossorigin="anonymous">
+          <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="pink.css" type="text/css">
     <style>
         html, body {
@@ -23,7 +24,7 @@
 
         h1 {
             font-family: 'Menlo', monospace;
-            font-size: 22px;
+            font-size: 18px;
             font-weight: 400;
             margin: 0;
             color: deeppink;
@@ -47,7 +48,8 @@
         }
 
         .modal-content {
-            padding: 0 22px;
+            padding: 8px 22px;
+            border: 0 !important;
         }
 
         .modal-icons {
@@ -90,6 +92,22 @@
             color: deeppink !important;
         }
 
+        .nav-link:hover {
+            background-color: rgb(255, 255, 234) !important;
+        }
+
+        .nav-link.active {
+            background-color: rgb(238, 226, 159) !important;
+        }
+
+        .nav.nav-tabs {
+            background-color: beige;
+        }
+
+        .tab-pane > p {
+            margin-top: 14px;
+        }
+
     </style>
 </head>
 <body>
@@ -101,17 +119,38 @@
     </div>
     <div class="modal-content">
         <h3>Welcome!</h3>
-        <p>Enjoy Facebook in pink. I am hoping to add some new themes in the near future.</p>
-        <p>Please report any issues you might experience on the project's <a href="https://github.com/strayblues/pinkbook/issues" target="_blank">GitHub repo</a>.</p>
-        <!-- <p>Pick your theme</p>
-        <ul>
-            <li>
-                <a href="">Pink</a>
-            </li>
-            <li>
-                <a href="">Pandas</a>
-            </li>
-        </ul> -->
+        <p>Enjoy Facebook in pink.</p>
+
+        <ul class="nav nav-tabs">
+            <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#learn">Learn</a></li>
+            <li class="nab-item"><a class="nav-link" data-toggle="tab" href="#themes">Themes</a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#developers">Developers</a></li>
+        </ul>
+
+        <div class="tab-content">
+        <div id="learn" class="tab-pane fade in show active">
+            <p>If you're interested in learning how to program or build websites, here are some free online resources for absolute beginners:</p>
+            <ul>
+                <li><a href="https://youtu.be/UB1O30fR-EE" target="_blank">HTML video turorial for beginners</a></li>
+                <li><a href="https://youtu.be/jvZLWhkzX-8" target="_blank">Coding is for girls (Python and basic Computer Science concepts)</a></li>
+            </ul>
+        </div>
+        <div id="themes" class="tab-pane fade">
+            <p>I am hoping to add some new themes in the future.</p>
+            <!-- <p>Pick your theme</p>
+            <ul>
+                <li>
+                    <a href="">Pink</a>
+                </li>
+                <li>
+                    <a href="">Pandas</a>
+                </li>
+            </ul> -->
+        </div>
+        <div id="developers" class="tab-pane fade">
+            <p>Please report any issue you might experience on the project's <a href="https://github.com/strayblues/pinkbook/issues" target="_blank">GitHub repo</a>.</p>
+        </div>
+        </div>
     </div>
     <div class="modal-icons">
         <div class="flex-container">
@@ -144,4 +183,6 @@
         </div>
     </div>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="bootstrap/bootstrap.min.js"></script>
 </html>
