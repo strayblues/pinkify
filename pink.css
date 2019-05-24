@@ -1,0 +1,149 @@
+a {
+  color: rgb(238, 121, 183) !important;
+}
+
+/* fb heading bg to pink */
+._2s1x ._2s1y,
+._2t-a ._50tj {
+  background: #d98cb3 !important;
+  border-bottom: 1px solid #d98cb3 !important;
+  color: #fff !important;
+}
+
+._4jy1, button, div.ego_action > a {
+  background-color: rgb(230, 144, 187) !important;
+  border-color: rgb(223, 149, 186) !important;
+}
+
+/* h5,
+span.fwb.fcg > a,
+span.see_more_link_inner,
+a#js_1hb,
+._6-6,
+span.fwn.fcg, */
+/* a#u_0_15._9ry._p, */
+/* a#js_5tu, */
+/* a#js_17e, */
+/* ._9ry._p,
+form.commentable_item,
+a._6qw4, */
+/* a._4-h7.fbReactComposerAttachmentSelector_MEDIA,  */
+
+
+div[data-click="profile_icon"] {
+  color: green !important;
+}
+
+/* a[data-gt="{chrome_nav_item:timeline_chrome}"], */
+a[data-gt],
+a#creation_hub_entrypoint,
+span[data-testid="profile_name_in_profile_page"] > a,
+span#fb-timeline-cover-name > a {
+  color: white !important;
+}
+
+/* a[data-hovercard="*"] {
+  color: black !important;
+} */
+
+a[data-hovercard] {
+  color: rgb(207, 33, 149) !important;
+}
+
+._585- {
+  border-color: pink !important;
+}
+
+/* notifications */
+/* span#u_0_6.jewelCount,
+span#u_0_7.jewelCount,
+span#u_0_8.jewelCount, */
+span#notificationsCountValue,
+span#mercurymessagesCountValue,
+span#requestsCountValue,
+/* span#u_ps_fetchstream_8_0_6,
+span#u_ps_fetchstream_8_0_7,
+span#u_ps_fetchstream_8_0_4, */
+span._5ugg {
+  background-color: black !important;
+}
+
+span._gs6 {
+  color: black !important;
+}
+
+.__tw, li.jewelItemNew {
+  background-color: #f9ecf2 !important;
+}
+
+li.jewelItemNew:hover {
+  background-color: #ffe6f7 !important;
+}
+
+a[ajaxify="/bluebar/create_menu/?button_id=creation_hub_entrypoint"],
+div._4kny._2s24,
+div._4kny > div > a, span#fb-timeline-cover-name > a,
+a._6ciz._4jy0._4jy4._517h._51sy._42ft,
+a._3-91._3-94._4jy0._4jy4._517h._51sy._42ft,
+a._6ciz._4jy0._4jy4._517h._51sy._42ft,
+a._4jy0._4jy4._517h._51sy._42ft,
+a[data-testid="create_group_rhc_button"] {
+  color: white !important;
+}
+
+/* button[data-testid="facebar_search_button"], */
+button[tooltip="Delete or hide this"],
+button[data-testid="UFI2CommentMenu/toggle"] {
+  background-color: white !important;
+}
+
+li.clearfix.sideNavItem.stat_elem {
+  color: black !important;
+}
+
+div.ego_action._5ymq._6tmj,
+div.ego_action._5ymq._6tmj > a,
+div.ego_action,
+div.ego_action > a,
+a[aria-label] {
+  color: white !important;
+}
+
+a.ego_title,
+div.egoProfileTemplate > a {
+  color: gray !important;
+}
+
+/* Message button on user profile */
+a[data-loggable="ProfileHighQualityLogger"]{
+  color: rgb(238, 121, 183) !important;
+}
+
+a[role="button"], a#u_ps_fetchstream_2_0_9 {
+  color: #777;
+}
+
+span.fwb._6btd > span.f_click, div.linkWrap.noCount {
+  color: rgb(238, 121, 183) !important;
+}
+
+div.linkWrap.hasCount {
+  color: rgb(214, 48, 137) !important;
+}
+
+span._nbt, span._mxb._4qbo._4u-0, span.fbRemindersTitle {
+  color: rgb(177, 21, 104) !important;
+}
+
+a[data-tab-key="about"],
+a[data-tab-key="friends"],
+a[data-tab-key="photos"],
+a[data-tab-key="archive"],
+a._42ft._4jy0._4jy4._517h._51sy,
+div#u_ps_fetchstream_8_0_5 > a {
+  background-color: rgb(230, 144, 187) !important;
+}
+
+a[aria-label="Shared with Your friends"]{
+  color: #333 !important;
+}
