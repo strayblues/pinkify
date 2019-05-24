@@ -15,26 +15,10 @@ a {
   border-color: rgb(223, 149, 186) !important;
 }
 
-/* h5,
-span.fwb.fcg > a,
-span.see_more_link_inner,
-a#js_1hb,
-._6-6,
-span.fwn.fcg, */
-/* a#u_0_15._9ry._p, */
-/* a#js_5tu, */
-/* a#js_17e, */
-/* ._9ry._p,
-form.commentable_item,
-a._6qw4, */
-/* a._4-h7.fbReactComposerAttachmentSelector_MEDIA,  */
-
-
 div[data-click="profile_icon"] {
   color: green !important;
 }
 
-/* a[data-gt="{chrome_nav_item:timeline_chrome}"], */
 a[data-gt],
 a#creation_hub_entrypoint,
 span[data-testid="profile_name_in_profile_page"] > a,
@@ -55,15 +39,9 @@ a[data-hovercard] {
 }
 
 /* notifications */
-/* span#u_0_6.jewelCount,
-span#u_0_7.jewelCount,
-span#u_0_8.jewelCount, */
 span#notificationsCountValue,
 span#mercurymessagesCountValue,
 span#requestsCountValue,
-/* span#u_ps_fetchstream_8_0_6,
-span#u_ps_fetchstream_8_0_7,
-span#u_ps_fetchstream_8_0_4, */
 span._5ugg {
   background-color: black !important;
 }
@@ -146,4 +124,33 @@ div#u_ps_fetchstream_8_0_5 > a {
 
 a[aria-label="Shared with Your friends"]{
   color: #333 !important;
+}
+
+a[data-lynx-uri]{
+  color: black !important;
+}
+
+div.navSubmenuName.ellipsis {
+  color: #222 !important;
+}
+
+/*
+div.navSubmenuName.ellipsis:hover {
+  background-color: rgb(230, 144, 187) !important;
+}
+
+li._54ni.navSubmenu.__MenuItem {
+  color: black !important;
+}
+*/
+li._54ni.navSubmenu.__MenuItem.selected {
+  background-color: rgb(230, 144, 187) !important;
+}
+
+/* li._navSubmenu.__MenuItem > a[role="menuitem"] {
+  color: black !important;
+} */
+
+a[role="menuitem"] > span {
+  color: black !important;
 }
